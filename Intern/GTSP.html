@@ -2,7 +2,7 @@
 <h1><a id="TSP_0"></a>TSP</h1>
 <p>The travelling salesman problem (TSP) is well-known in computer science and combinatorial optimization. It is a “meta-problem” in many applications in operation research problems. Though NP-hard, it has tons of heuristic algorithms, where Lin–Kernighan is one of the best heuristics for solving the symmetric travelling salesman problem.</p>
 <h1><a id="LinKernighan_Heuristics_3"></a>Lin–Kernighan Heuristics</h1>
-<p>The idea of Lin–Kernighan is simple: keep swap nodes such that the formed new tour has low cost, and terminate if loop for every nodes until no improvement found. Lin–Kernighan is very efficient (I didn’t believe it until I coded it out) especially with add-on refinements. The most refinements I learned are about how to choose a neighbor set for a swapping node, where LKH algorithm is the “best”.</p>
+<p>The idea of Lin–Kernighan is simple: keep swaping nodes such that the formed new tour has low cost, and terminate if loop for every nodes until no improvement found. Lin–Kernighan is very efficient (I didn’t believe it until I coded it out) especially with add-on refinements. The most of refinements I learned are about how to choose a neighbor set for a swapping node, where LKH algorithm is the “best”.</p>
 <p>During the intern, I implemented LK algorithm and tested with graph (100~1000 nodes). The gap-to-optimal are within 2% for ~100 nodes and within 5% for ~1000 nodes.</p>
 <h1><a id="GTSP_8"></a>GTSP</h1>
 <p>With LK heuristics algorithm, we are able to solve some generilzed TSP problems as follows<br>
