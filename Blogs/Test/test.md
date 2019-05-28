@@ -1,8 +1,0 @@
-# Google
-
-
-# FB
-
-# Amazon
-
-# Airbnb
